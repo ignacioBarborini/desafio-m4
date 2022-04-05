@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./header/header.css">
+    <script defer src="./header/header.js"></script>
+
+    <link rel="stylesheet" href="./contact/contact.css">
+    <script defer src="./contact/contact.js"></script>
+
+    <link rel="stylesheet" href="./footer/footer.css">
+    <script defer src="./footer/footer.js"></script>
+    
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./index.js"></script>
+
+
+    
+    <title>Soy Nacho</title>
+</head>
+<body>
+    <section class="welcome">
+        <header class="welcome__header"></header>
+        <div class="welcome__title-container">
+            <p class="welcome__hello">Bienvenidos</p>
+            <h1 class="welcome__title">Soy Nacho</h1>
+        </div>
+    </section>
+    <section class="presentation">
+        <div class="presentation__container">
+            <template id="presentation__template">
+                <div class="presentation__image-container">
+                    <img class="presentation__image" src="./images/instagram.png" alt="">
+                </div>
+                <div class="presentation__title-text-container">
+                    <h2 class="presentation__title">
+                        Soy Nacho
+                    </h2>
+                    <p class="presentation__text">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies dolor.</p>
+                </div>
+            </template>
+        </div>
+    </section>
+    <section class="services">
+        <h2 class="services__title">Mis servicios</h2>
+        <div class="services__container"></div>
+            <template id="services__template">
+                <div class="services__card">
+                    <img class="services__card-image" src="./images/instagram.png" alt="">
+                    <h3 class="services__card-title">Un servicio</h3>
+                    <p class="services__card-text">Un texto de prueba describiendo el servicio realizado. Capaz decimos algo mas pero hasta ahi.</p>
+                </div>
+            </template>
+    </section>
+    <div class="contact-form-container"></div>
+    <footer class="footer-container"></footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./header/header.css">
+    <script defer src="./header/header.js"></script>
+
+    <link rel="stylesheet" href="./footer/footer.css">
+    <script defer src="./footer/footer.js"></script>
+
+
+    <link rel="stylesheet" href="./portfolio.css">
+    <script defer src="./portfolio.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="portfolio__container">
+
+        <div class="portfolio__header-title-container">
+            <header class="portfolio__header"></header>
+            <h2 class="portfolio__title">Portfolio</h2>
+        </div>
+        <div class="portfolio__cards-container">
+            <template id="portfolio__template">
+                <div class="portfolio__card">
+                    <img class="portfolio__img-card" src="./images/instagram.png" alt="">
+                    <h3 class="portfolio__title-card">Trabajo de prueba</h3>
+                    <p class="portfolio__text-card">En este lugar va una breve descripcion del proyecto. </p>
+                    <a class="portfolio__link-card" href="http://instagram.com">Ver mas...</a>
+                </div>
+            </template>
+        </div>
+    </div>
+    <footer class="portfolio__footer"></footer>
+</body>
+</html>

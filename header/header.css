@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.header__container-logo-and-open-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(44, 44, 44, 0);
+}
+@media (min-width: 1024px) {
+  .header__container-logo-and-open-button {
+    padding: 0 40px;
+  }
+}
+
+.header__logo {
+  width: 100px;
+  height: 100px;
+}
+
+.header__open-options-button {
+  text-decoration: none;
+  margin: 15px;
+}
+@media (min-width: 768px) {
+  .header__open-options-button {
+    display: none;
+  }
+}
+
+span {
+  border: solid 1px;
+  border-color: black;
+  background-color: white;
+  display: block;
+  height: 6px;
+  width: 35px;
+  margin: 5px;
+}
+
+.header__container-options-desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header__container-options-desktop {
+    display: flex;
+    justify-content: space-between;
+    min-width: 451px;
+  }
+}
+
+.header__container-pop-up-window {
+  background-color: rgba(22, 22, 22, 1);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+.header__close-options-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 37px;
+}
+
+.header__container-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__options-link {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .header__options-link {
+    margin: 0 auto;
+    text-decoration: none;
+  }
+}
+
+.header__options {
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 58px;
+}
+@media (min-width: 768px) {
+  .header__options {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: normal;
+    margin: 0 auto;
+  }
+}
