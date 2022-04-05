@@ -3,8 +3,8 @@ function addHeader(el){
     newDiv.innerHTML = 
     `<header class="header">
     <div class="header__container-logo-and-open-button">
-        <a href="../index.html">
-            <img class="header__logo" src="../images/logo-prueba.png" alt="">
+        <a href="./index.html">
+            <img class="header__logo" src="./images/logo-prueba.png" alt="">
         </a>
         <a class="header__open-options-button">
             <span></span>
@@ -12,13 +12,13 @@ function addHeader(el){
             <span></span>
         </a>
         <div class="header__container-options-desktop">
-            <a class="header__options-link" href="../portfolio.html">
+            <a class="header__options-link" href="./portfolio.html">
                     <p class="header__options">Portfolio</p>
             </a>
-            <a class="header__options-link" href="../servicios.html">
+            <a class="header__options-link" href="./servicios.html">
                 <p class="header__options">Servicios</p>
             </a>
-            <a class="header__options-link" href="../contacto.html">
+            <a class="header__options-link" href="./contacto.html">
                 <p class="header__options">Contacto</p>
             </a>
         </div>
@@ -26,16 +26,16 @@ function addHeader(el){
     </div>
     <div class="header__container-pop-up-window">
         <div class="header__close-options-button">
-            <img class="header__button-img" src="../images/cruz.png" alt="">
+            <img class="header__button-img" src="./images/cruz.png" alt="">
         </div>
         <div class="header__container-options">
-            <a class="header__options-link" href="../portfolio.html">
+            <a class="header__options-link" href="./portfolio.html">
                 <p class="header__options">Portfolio</p>
         </a>
-        <a class="header__options-link" href="../servicios.html">
+        <a class="header__options-link" href="./servicios.html">
             <p class="header__options">Servicios</p>
         </a>
-        <a class="header__options-link" href="../contacto.html">
+        <a class="header__options-link" href="./contacto.html">
             <p class="header__options">Contacto</p>
         </a>
         </div>
