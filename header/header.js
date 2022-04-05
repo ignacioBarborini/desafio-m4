@@ -4,7 +4,7 @@ function addHeader(el){
     `<header class="header">
     <div class="header__container-logo-and-open-button">
         <a href="../index.html">
-            <img class="header__logo" src="/images/logo-prueba.png" alt="">
+            <img class="header__logo" src="../images/logo-prueba.png" alt="">
         </a>
         <a class="header__open-options-button">
             <span></span>
@@ -26,7 +26,7 @@ function addHeader(el){
     </div>
     <div class="header__container-pop-up-window">
         <div class="header__close-options-button">
-            <img class="header__button-img" src="/images/cruz.png" alt="">
+            <img class="header__button-img" src="../images/cruz.png" alt="">
         </div>
         <div class="header__container-options">
             <a class="header__options-link" href="../portfolio.html">
