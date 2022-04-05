@@ -3,8 +3,6 @@ function addReusableComponents(){
     const servicesFooterContainer = document.querySelector(".services__footer");
     addHeader(servicesHeaderContainer);
     addFooter(servicesFooterContainer);
-    openPopUpWindow();
-    closePopUpWindow();
 }
 
 

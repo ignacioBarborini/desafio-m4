@@ -3,8 +3,6 @@ function addReusableComponents(){
     const footerPortfolioContainer = document.querySelector(".portfolio__footer");
     addFooter(footerPortfolioContainer);
     addHeader(headerPortfolioContainer);
-    openPopUpWindow();
-    closePopUpWindow();
 }
 
 function addPortfolioCard(contentfulData = {}){

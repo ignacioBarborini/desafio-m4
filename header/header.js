@@ -45,26 +45,26 @@ function addHeader(el){
 </header>`
         el.appendChild(newDiv);
 
-}
-
-
-function openPopUpWindow(){
-const openButton = document.querySelector(".header__open-options-button");
-const options = document.querySelector(".header__container-pop-up-window");
-openButton.addEventListener("click", ()=>{
-    options.style.display = "inherit";
-})
-};
-
-function closePopUpWindow(){
-    const closeButton = document.querySelector(".header__close-options-button")
-    const options = document.querySelector(".header__container-pop-up-window")
-    closeButton.addEventListener("click", ()=>{
-        options.style.display = "";
-    })
-}
-
-openPopUpWindow();
-closePopUpWindow();
+        
+        
+        function openPopUpWindow(){
+            const openButton = document.querySelector(".header__open-options-button");
+            const options = document.querySelector(".header__container-pop-up-window");
+            openButton.addEventListener("click", ()=>{
+                options.style.display = "inherit";
+            })
+        };
+        
+        function closePopUpWindow(){
+            const closeButton = document.querySelector(".header__close-options-button")
+            const options = document.querySelector(".header__container-pop-up-window")
+            closeButton.addEventListener("click", ()=>{
+                options.style.display = "";
+            })
+        }
+        
+        openPopUpWindow();
+        closePopUpWindow();
+    }
 
 

@@ -5,8 +5,6 @@ function addReusableComponents(){
     addHeader(headerContainer);
     addContactForm(contactContainer);
     addFooter(footerContainer);
-    openPopUpWindow();
-    closePopUpWindow();
 }
 
 function addPresentation(contentfulData = {}){
