@@ -2,6 +2,7 @@ function addHeader(el){
     const newDiv = document.createElement("div")
     newDiv.innerHTML = 
     `<header class="header">
+    <div class="header__general-container">
     <div class="header__container-logo-and-open-button">
         <a href="./index.html">
             <img class="header__logo" src="./images/logo-prueba.png" alt="">
@@ -21,6 +22,7 @@ function addHeader(el){
             <a class="header__options-link" href="./contacto.html">
                 <p class="header__options">Contacto</p>
             </a>
+        </div>
         </div>
     
     </div>

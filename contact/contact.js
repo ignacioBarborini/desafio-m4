@@ -39,12 +39,12 @@ function postFormData(){
             "message": `Nombre: ${name}, Email: ${email}, Mensaje: ${message}.`
         }
 
-        fetch("https://webhook.site/02bfba8c-a8b5-4bf2-af8e-3ba919b5ced4", {
+        fetch("https://apx-api.vercel.app/api/utils/dwf", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(data),
       })
-      .then((data)=>{data.JSON()})
+      .then((data)=> data.json());
     })
     }
     postFormData();
